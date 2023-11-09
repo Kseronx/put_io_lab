@@ -51,6 +51,7 @@ Osoba chcąca zakupić produkt na aukcji.
 [Sprzedający](#ac1):
 * [UC1](#uc1): Wystawienie produktu na aukcję.
 * [UC4](#uc4): Przekazanie produktu kupującemu.
+
 [Kupujący](#ac2)
 * [UC2](#uc2): Oferuje kwotę za produkt wyższą od aktualnie najwyższej oferty.
 * [UC3](#uc3): wygrywa aukcję
