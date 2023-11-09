@@ -53,8 +53,8 @@ Osoba chcąca zakupić produkt na aukcji.
 * [UC4](#uc4): Przekazanie produktu kupującemu.
 
 [Kupujący](#ac2)
-* [UC2](#uc2): Oferuje kwotę za produkt wyższą od aktualnie najwyższej oferty.
-* [UC3](#uc3): wygrywa aukcję
+* [UC2](#uc2): Zaoferowanie kwoty za produkt wyższej od aktualnie najwyższej oferty.
+* [UC3](#uc3): Wygranie aukcji
 
 
 ---
@@ -79,9 +79,9 @@ Osoba chcąca zakupić produkt na aukcji.
 ---
 
 <a id="uc2"></a>
-### UC2: ...
+### UC2: Zaoferowanie kwoty za produkt wyższej od aktualnie najwyższej oferty.
 
-**Aktorzy:** [Sprzedający](#ac1), [Kupujący](#ac2), ...
+**Aktorzy:** [Kupujący](#ac2)
 
 **Scenariusz główny:**
 1. ...
@@ -93,6 +93,33 @@ Osoba chcąca zakupić produkt na aukcji.
 
 ---
 
+<a id="uc3"></a>
+### UC3: Wygranie aukcji
+
+**Aktorzy:** [Kupujący](#ac2)
+
+**Scenariusz główny:**
+1. ...
+
+**Scenariusze alternatywne:**
+
+1.A. ...
+* 4.A.1. ...
+
+---
+
+<a id="uc4"></a>
+### UC4: Przekazanie produktu kupującemu.
+
+**Aktorzy:** [Sprzedający](#ac1), [Kupujący](#ac2)
+
+**Scenariusz główny:**
+1. ...
+
+**Scenariusze alternatywne:**
+
+1.A. ...
+* 4.A.1. ...
 ## Obiewkty biznesowe (inaczje obiekty dziedzinowe lub informatycjne)
 
 ### BO1: Aukcja
