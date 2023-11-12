@@ -90,10 +90,12 @@ Osoba chcąca zakupić produkt na aukcji.
 3. [Kupujący](#ac2) podaje swoje dane i kwotę.
 4. System weryfikuje poprawność podanych przez [Kupującego](#ac2) danych.
 5. System informuje o pomyślnym przyjęciu oferty.
+
 **Scenariusze alternatywne:** 
 
-1.A. Podano niepoprawne dane.
-* 4.A.1. Sprawdź czy dane zgadzają się z [BR2](#br2).
+3.A. Podano niepoprawne dane.
+* 3.A.1. Sprawdź czy dane zgadzają się z [BR2](#br2).
+* 3.A.2 Przejdź do kroku 2.
 
 ---
 
