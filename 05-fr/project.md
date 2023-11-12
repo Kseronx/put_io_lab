@@ -85,12 +85,15 @@ Osoba chcąca zakupić produkt na aukcji.
 **Aktorzy:** [Kupujący](#ac2)
 
 **Scenariusz główny:**
-1. ...
-
+1. [Kupujący](#ac2) zgłasza do systemu chęć zakupu produktu na akcji.
+2. System prosi o podanie kwoty oraz danych [Kupującego](#ac2).
+3. [Kupujący](#ac2) podaje swoje dane i kwotę.
+4. System weryfikuje poprawność podanych przez [Kupującego](#ac2) danych.
+5. System informuje o pomyślnym przyjęciu oferty.
 **Scenariusze alternatywne:** 
 
-1.A. ...
-* 4.A.1. ...
+1.A. Podano niepoprawne dane.
+* 4.A.1. Sprawdź czy dane zgadzają się z [BR2](#br2).
 
 ---
 
