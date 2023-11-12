@@ -94,7 +94,7 @@ Osoba chcąca zakupić produkt na aukcji.
 **Scenariusze alternatywne:** 
 
 3.A. Podano niepoprawne dane.
-* 3.A.1. Sprawdź czy dane zgadzają się z [BR2](#br2).
+* 3.A.1. Sprawdź czy dane zgadzają się z [BR1](#br1).
 * 3.A.2 Przejdź do kroku 2.
 
 ---
@@ -105,12 +105,9 @@ Osoba chcąca zakupić produkt na aukcji.
 **Aktorzy:** [Kupujący](#ac2)
 
 **Scenariusz główny:**
-1. ...
-
-**Scenariusze alternatywne:**
-
-1.A. ...
-* 4.A.1. ...
+1. System przekazuje informację do [Kupującego](#ac2) o wygraniu aukcji. [BR2](#br2)
+2. [Kupujący](#ac2) potwierdza otrzymanie wiadomości.
+3. System przekazuje dane potrzebne do transakcji.
 
 ---
 
@@ -120,7 +117,8 @@ Osoba chcąca zakupić produkt na aukcji.
 **Aktorzy:** [Sprzedający](#ac1), [Kupujący](#ac2)
 
 **Scenariusz główny:**
-1. ...
+1. System dostarcza informację [Sprzedającemu](#ac1) o dokonaniu wpłaty przez [Kupujący](#ac2).
+2.
 
 **Scenariusze alternatywne:**
 
@@ -135,12 +133,18 @@ Osoba chcąca zakupić produkt na aukcji.
 **Aktorzy:** [Kupujący](#ac2),[Sprzedający](#ac1)
 
 **Scenariusz główny:**
-1. ...
+1. [Kupujący](#ac2) zgłasza do systemu chęć dokonania wpłaty.
+2. System prosi o dokonanie wpłaty na podany przez [Sprzedający](#ac1) numer konta bankowego.
+3. [Kupujący](#ac2) dokonuje wpłaty.
+4  System weryfikuje kwotę wpłaty.
+5. System podaje [Kupującemu](#ac2) dane [Sprzedającego](#ac1).
+6. System zatwierdza transakcję.
 
 **Scenariusze alternatywne:** 
 
-1.A. ...
-* 4.A.1. ...
+4.A. [Kupujący](#ac2) wpłaca niepoprawną kwotę.
+* 4.A.1. System informuje o niepowodzeniu transakcji.
+* 4.A.2. Przejdź do kroku 2.
 
 ---
 ## Obiewkty biznesowe (inaczje obiekty dziedzinowe lub informatycjne)
