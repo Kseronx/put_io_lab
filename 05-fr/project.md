@@ -117,13 +117,22 @@ Osoba chcąca zakupić produkt na aukcji.
 **Aktorzy:** [Sprzedający](#ac1), [Kupujący](#ac2)
 
 **Scenariusz główny:**
-1. System dostarcza informację [Sprzedającemu](#ac1) o dokonaniu wpłaty przez [Kupujący](#ac2).
-2.
+1. System dostarcza informację [Sprzedającemu](#ac1) o dokonaniu wpłaty przez [Kupującego](#ac2).
+2. System przekazuje dane [Kupującego](#ac2) [Sprzedającemu](#ac1).
+3. [Sprzedający](#ac1) wysyła produkt [BO2](#bo2) [Kupującemu](#ac2).
+4. System informuje [Kupującego](#ac2) o wysłaniu produktu [BO2](#bo2).
+5. [Kupujący](#ac2) potwierdza otrzymanie produktu [BO2](#bo2). 
 
 **Scenariusze alternatywne:**
 
-1.A. ...
-* 4.A.1. ...
+4.A. Produkt [BO2](#bo2) nie został wysłany.
+* 4.A.1. System informuje [Kupującego](#ac2) o nie wysłaniu produktu [BO2](#bo2).
+* 4.A.2. System prosi [Sprzedającego](#ac1) o wysłaniu produktu [BO2](#bo2).
+* 4.A.3. Przejdź do kroku 3.
+
+5.A Produkt nie dotarł do [Kupującego](#ac2).
+* 5.A.1 System kontaktuje się z firmą przewozową.
+* 5.A.2 Przejdź do kroku 4.
 
 ---
 
